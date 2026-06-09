@@ -1,10 +1,10 @@
 <template>
-  <section id="portfolio" class="py-24 bg-[#1A0E1B]">
+  <section id="portfolio" class="py-24 bg-white">
     <div class="container mx-auto px-6 md:px-12">
       <!-- Section Header -->
       <div class="text-center mb-16">
         <span class="text-sm uppercase tracking-[0.3em] text-[#E94733] font-medium block mb-3">Nosso Acervo</span>
-        <h2 class="text-3xl md:text-5xl font-serif text-white">Momentos <span class="italic text-[#E94733]">Eternizados</span></h2>
+        <h2 class="text-3xl md:text-5xl font-serif text-[#1A1A1A]">Momentos <span class="italic text-[#E94733]">Eternizados</span></h2>
         <div class="w-16 h-[1px] bg-gradient-to-r from-[#E94733] to-[#EF8E27] mx-auto mt-6"></div>
       </div>
 
@@ -52,7 +52,7 @@
       </div>
 
       <div class="text-center mt-16 lg:mt-24">
-        <a href="#" class="inline-flex items-center gap-2 text-white hover:text-[#E94733] transition-colors font-medium uppercase tracking-widest text-sm border-b border-transparent hover:border-[#E94733] pb-1">
+        <a href="#" class="inline-flex items-center gap-2 text-[#1A1A1A] hover:text-[#E94733] transition-colors font-medium uppercase tracking-widest text-sm border-b border-transparent hover:border-[#E94733] pb-1">
           Ver Galeria Completa
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />

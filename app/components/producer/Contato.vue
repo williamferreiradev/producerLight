@@ -1,7 +1,7 @@
 <template>
-  <section id="contato" class="py-24 bg-[#130B14] relative">
+  <section id="contato" class="py-24 bg-[#FAFAFA] relative">
     <div class="container mx-auto px-6 md:px-12">
-      <div class="flex flex-col rounded-3xl overflow-hidden shadow-2xl shadow-[#E94733]/10 border border-[#E94733]/20 bg-[#1A0E1B] max-w-4xl mx-auto">
+      <div class="flex flex-col rounded-3xl overflow-hidden shadow-2xl shadow-[#E94733]/10 border border-[#E94733]/20 bg-white max-w-4xl mx-auto">
         
         <!-- Info Panel Centered -->
         <div class="p-12 md:p-16 flex flex-col justify-center items-center relative overflow-hidden text-center">
@@ -9,8 +9,8 @@
           
           <div class="relative z-10 w-full">
             <span class="text-sm uppercase tracking-[0.3em] text-[#EF8E27] font-medium block mb-3">Atendimento</span>
-            <h3 class="font-serif text-4xl md:text-5xl text-white mb-6">Vamos conversar?</h3>
-            <p class="text-gray-300 font-light mb-12 max-w-2xl mx-auto text-lg">
+            <h3 class="font-serif text-4xl md:text-5xl text-[#1A1A1A] mb-6">Vamos conversar?</h3>
+            <p class="text-gray-600 font-light mb-12 max-w-2xl mx-auto text-lg">
               Estamos prontas para conhecer a sua história e ajudar a transformar seu evento em uma experiência inesquecível. Clique no botão abaixo e fale diretamente conosco.
             </p>
 
@@ -23,39 +23,39 @@
 
             <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-left border-t border-[#E94733]/20 pt-10">
               <div class="flex flex-col items-center text-center gap-3">
-                <div class="w-12 h-12 rounded-full bg-[#2A162B] flex items-center justify-center flex-shrink-0 shadow-sm border border-[#E94733]/20">
+                <div class="w-12 h-12 rounded-full bg-[#FFF5F0] flex items-center justify-center flex-shrink-0 shadow-sm border border-[#E94733]/20">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#E94733]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                 </div>
                 <div>
-                  <h4 class="font-medium text-white">Nosso Escritório</h4>
-                  <p class="text-gray-400 font-light text-sm mt-1">Fortaleza - CE</p>
+                  <h4 class="font-medium text-[#1A1A1A]">Nosso Escritório</h4>
+                  <p class="text-gray-500 font-light text-sm mt-1">Fortaleza - CE</p>
                 </div>
               </div>
 
               <div class="flex flex-col items-center text-center gap-3">
-                <div class="w-12 h-12 rounded-full bg-[#2A162B] flex items-center justify-center flex-shrink-0 shadow-sm border border-[#E94733]/20">
+                <div class="w-12 h-12 rounded-full bg-[#FFF5F0] flex items-center justify-center flex-shrink-0 shadow-sm border border-[#E94733]/20">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#E94733]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                 </div>
                 <div>
-                  <h4 class="font-medium text-white">Telefone</h4>
-                  <p class="text-gray-400 font-light text-sm mt-1">(85) 99999-9999</p>
+                  <h4 class="font-medium text-[#1A1A1A]">Telefone</h4>
+                  <p class="text-gray-500 font-light text-sm mt-1">(85) 99999-9999</p>
                 </div>
               </div>
 
               <div class="flex flex-col items-center text-center gap-3">
-                <div class="w-12 h-12 rounded-full bg-[#2A162B] flex items-center justify-center flex-shrink-0 shadow-sm border border-[#E94733]/20">
+                <div class="w-12 h-12 rounded-full bg-[#FFF5F0] flex items-center justify-center flex-shrink-0 shadow-sm border border-[#E94733]/20">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#E94733]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
                 <div>
-                  <h4 class="font-medium text-white">E-mail</h4>
-                  <p class="text-gray-400 font-light text-sm mt-1">contato@producereventos.com.br</p>
+                  <h4 class="font-medium text-[#1A1A1A]">E-mail</h4>
+                  <p class="text-gray-500 font-light text-sm mt-1">contato@producereventos.com.br</p>
                 </div>
               </div>
             </div>

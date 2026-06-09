@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-[#130B14] text-white font-sans selection:bg-[#2A162B] selection:text-white">
+  <div class="min-h-screen bg-[#FAFAFA] text-[#1A1A1A] font-sans selection:bg-[#FFF5F0] selection:text-[#1A1A1A]">
     <ProducerHeader />
     <main>
       <ProducerHero />
